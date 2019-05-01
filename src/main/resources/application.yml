@@ -1,10 +1,16 @@
+# Service registers under this name
+spring:
+  application:
+    name: discovery-microservice-server
 # Configure this Discovery Server
 eureka:
   instance:
-    hostname: localhost
+    hostname: discovery-microservice-server
   client: 
     registerWithEureka: false
     fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://discovery-microservice-server:1111/eureka/
 
 # HTTP (Tomcat) port
 server:
