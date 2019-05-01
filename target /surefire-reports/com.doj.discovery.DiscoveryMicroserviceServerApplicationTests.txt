@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.doj.discovery.DiscoveryMicroserviceServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.345 sec - in com.doj.discovery.DiscoveryMicroserviceServerApplicationTests
